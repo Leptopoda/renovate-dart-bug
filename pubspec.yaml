@@ -1,0 +1,11 @@
+name: renovate_reproduction_26319
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  provider:
+    git:
+      url: https://github.com/rrousselGit/provider
+      path: packages/provider
+      tag_pattern: "provider-v{{version}}"
+    version: ^6.1.1
