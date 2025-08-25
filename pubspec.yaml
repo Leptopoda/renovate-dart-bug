@@ -3,9 +3,9 @@ environment:
   sdk: ^3.9.0
 
 dependencies:
-  archive:
+  example_git_package:
     git:
-      url: https://github.com/brendan-duncan/archive
+      url: https://github.com/Conrad598/renovate-reproduction-26319
       tag_pattern: "{{version}}"
-    version: ^3.0.0
-  
+      path: ./example_git_package
+    version: ^1.0.0
